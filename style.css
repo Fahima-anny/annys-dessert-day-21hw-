@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+padding: 5px 50px;
+height: 9vh;
+background-color:  #e6005c;
+font-size: 4vh;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+text-shadow: 2px 2px rgb(255, 255, 255);
+border: 2px solid black;
+}
+#headerBtn button{
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 2px solid #660029;
+font-weight: 900;
+}
+/* header end  */
+
+#mainBannerSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(./depositphotos_407555576-stock-photo-luxury-pink-blur-abstract-background.webp);
+  background-repeat:no-repeat ;
+  background-size: cover;
+    height: 90vh;
+}
+#mainBannerSection h1{
+    text-shadow: 1px 1px #41041c;
+color: #41041c;
+    font-size: 50px;
+    margin: 100px 100px;
+    padding: 20px 20px;
+    text-align: justify;
+    border: none;
+   
+}
+
+#mainBannerSection>img{
+    height: 50vh;
+    width:40% ;
+    margin-left: 100px;
+    box-shadow: 0 0 20px 10px rgb(248, 189, 189);
+}
+#bannerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#bannerDiv>button{
+    padding: 20px 50px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 10px 10px rgb(202, 103, 120);
+    font-size: 20px;
+    font-weight: 900;
+    color: #660029;
+}
+#menuSection{
+    background-image: url(./pink-green-cupcakes-with-spring-flowers-pink-background_176873-12945.avif);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menuDiv{
+    background-color: #fa9ec3;
+    height: 90vh;
+    width: 70vw;
+    box-shadow: 0 0 10px 5px rgb(255, 148, 166);
+    text-align: center;
+    
+}
+ul{
+    list-style: none;
+}
+#menuDiv>h1{
+    font-size: 80px;
+    color: #41041c;
+    text-shadow: 5px 5px white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menuDiv>ul{
+    font-size:50px ;
+    color: #440720;
+    text-shadow: 5px 5px white;
+    font-weight: 700;
+}
+#footerSection{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url(./paper-style-dynamic-lines-background_79603-1847.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+#contactSection{
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    display: flex;
+    gap: 10px;
+    font-size: 40px;
+}
+
+#contactImg>img{
+    height: 40vh;
+    border-radius:100%;
+}
+#aboutUs>h1{
+    font-size: 40px;
+    text-align: center;
+}
+#aboutUs{
+    font-size: 20px;
+    font-weight: 600;
+    color: #41041c;
+}
